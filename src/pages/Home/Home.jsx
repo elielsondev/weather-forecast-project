@@ -2,6 +2,7 @@ import React from "react";
 
 import Header from "../../components/Header/Header";
 import SearchCity from "../../components/SearchCity/SearchCity";
+import Footer from "../../components/Footer/Footer";
 
 function Home({setWeather}) {
   return (
@@ -10,6 +11,7 @@ function Home({setWeather}) {
       <SearchCity 
         setWeather={setWeather}
       />
+      <Footer />
     </main>
   );
 }
